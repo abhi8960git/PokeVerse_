@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Upload to Spheron</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>File Upload to Spheron</h1>
+    <div class="input-group">
+      <label for="filePath">File Path:</label>
+      <input type="text" id="filePath">
+    </div>
+    <div class="input-group">
+      <label for="bucketName">Bucket Name:</label>
+      <input type="text" id="bucketName">
+    </div>
+    <div class="input-group">
+      <label for="spheronToken">Spheron Token:</label>
+      <input type="text" id="spheronToken">
+    </div>
+    <div class="input-group">
+      <label for="walletPrivateKey">Wallet Private Key:</label>
+      <input type="text" id="walletPrivateKey">
+    </div>
+    <button id="uploadButton">Upload File</button>
+    <div id="uploadResponse" style="margin-top: 20px;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
